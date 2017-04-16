@@ -1,0 +1,212 @@
+/*
+	Author : Dipta Saha
+	Address: Uttara, Bangladesh 1230
+	Website: https://about.me/diptasaha
+	Email  : dipta196@gmail.com
+	Version: 1.0
+*/
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+.banner{
+	background: url(top_bg.jpg)no-repeat center;	
+		height: 100%;
+		display: block;
+}
+
+.banner h1{
+	color: #39c9da;
+	padding: 10px;
+}
+
+.banner-content2{
+	
+}
+nav ul{
+	margin-top:43px;
+}
+nav ul li {
+	display: inline;
+	list-style: outside none none;
+	font-size: 16px;
+	padding: 10px 4px;
+	margin-right: 2.5em;
+	
+}
+
+nav ul li:hover{
+	border: 1px solid #FFE600;
+	color: #333;
+}
+a{
+	color: #fff;
+}
+
+.banner-mid-content{
+	padding: 130px 0; 
+}
+.banner-mid-content h2{
+	color: #fff;
+	font-size: 36px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.exp-btn{
+	background-color:#39c9da;
+	border-radius: 5px;
+	padding: 12px 45px;
+	font-size: 16px;
+	color: #fff;
+	font-weight: 400;
+}
+.exp-btn:hover{
+	background: #FFE600;
+	color: #333;
+	cursor: pointer;
+}
+
+/********
+about
+*******/
+.ABOUT{
+	padding: 70px 0;
+}
+.ABOUT h1{
+	font-size: 19px;
+	color: #333;
+	text-transform: uppercase;
+	padding-bottom: 25px;
+	font-weight: 500;
+}
+.ABOUT h4{
+	font-size: 14px;
+	color: #dbdbdb;
+	text-transform: uppercase;
+	font-weight: 400;
+	padding-bottom: 40px;
+}
+.ABOUT h2{
+	color: #333;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 400;
+
+}
+.ABOUT1 p{
+color: #dbdbdb;
+}
+
+/**********
+portfolio
+**********/
+.portfolio{
+	background-color: #f4f4f4;
+	padding: 60px 0;
+}
+.portfolio h1{
+	color: #333;
+	font-size: 26px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 500;
+}
+.portfolio p{
+	font-size: 16px;
+	text-align: center;
+	color: #a8a8a8;
+	font-weight: 400;
+}
+.portfolio-item{
+	padding-top: 70px;
+}
+.portfolio-item-two{
+	padding-top: 30px;
+}
+.img-responsive{
+			max-width: 768px;
+		}
+.img-responsive:hover{
+	transform: scale(.9,.9);
+	transition: all 0.5s ease-in-out;
+}
+
+	/*************
+		SERVICES
+	*************/
+	.SERVICES{
+		background-color: #fafafa;
+
+	}
+	.SERVICES h1{
+	color: #333;
+	font-size: 26px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 500;
+}
+.SERVICES p{
+	font-size: 16px;
+	text-align: center;
+	color: #a8a8a8;
+	font-weight: 400;
+}
+.SERVICES-item1{
+	padding-top: 20px;
+	background-color: #fff;
+	border: gray;
+
+}
+.SERVICES-item1:hover{
+	background: #579da5;
+	color: #fff;
+	cursor: pointer;
+}
+	/*************
+	CONTACT
+	*************/
+	.CONTACT{
+	padding: 60px 0;
+	background-color: #fafafa;
+}
+
+.contact-form{
+	padding-top: 70px;
+}
+.contact-field{
+	border: none;
+	background: #ffffff;
+	color: #a8a8a8;
+	padding: 10px 25px;
+	width: 100%;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+.CONTACT .btn-default{
+	width: 100%;
+	color: #fff;
+	background: #39c9da;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	font-weight: 500;
+	margin-left: 391px;
+}
+.CONTACT .btn-default:hover{
+	background: #39c9da;
+	color: #333;
+}
+	
+	/**********************
+       Footer 
+**********************/
+footer{
+	background: #333;
+	color: #fff;
+	padding:9px;
+}
+footer h4{
+	font-size: 15px;
+	font-weight: 300;
+}
+
